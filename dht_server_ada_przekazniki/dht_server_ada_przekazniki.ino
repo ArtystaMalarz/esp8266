@@ -28,14 +28,15 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
-#define wifi_ssid "launch"
-#define wifi_password "123123123"
+#define wifi_ssid "nazwa sieci"
+#define wifi_password "haslo"
 
-#define mqtt_server "io.adafruit.com"
+#define mqtt_server "adres serwera mqtt"
 
-#define mqtt_user "ArtystaMalarz"
-#define mqtt_password "e5905fc846a441959830c75e67c0b6ff"
+#define mqtt_user "login"
+#define mqtt_password "haslo"
 
+//topics:
 
 #define swiatlo "ArtystaMalarz/feeds/light"
 #define led "ArtystaMalarz/feeds/led"
