@@ -23,7 +23,7 @@
 // as the current DHT reading algorithm adjusts itself to work on faster procs.
 
 
-///Dziala z cc3200 jako server w sieci lokalnej + dashboard na androidzie
+
 
 
 DHT dht(DHTPIN, DHTTYPE);
